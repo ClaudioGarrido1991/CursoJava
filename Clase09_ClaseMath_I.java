@@ -1,4 +1,4 @@
-public class Clase09_ClaseMath {
+public class Clase09_ClaseMath_I {
 
     /*Clase Math
      * 
