@@ -17,11 +17,12 @@ public class Clase16_Else_If {
     public static void main(String[] args) {
 
         String edadString = JOptionPane.showInputDialog("Ingrese su edad.");
-        int edad = Integer.parseInt(edadString); //Necesario realizar parseo para usarlo en los condicionales.
+        int edad = Integer.parseInt(edadString); //Necesario realizar parseo para usarlo en los condicionalesdas.
 
         if (edad<=4){
-
+            
             System.out.println("Tienes "+edadString+" años. Eres un bebé.");
+            
 
         }
         else if (edad >= 5 && edad <=14){

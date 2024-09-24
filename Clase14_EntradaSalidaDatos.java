@@ -22,7 +22,7 @@ public class Clase14_EntradaSalidaDatos {
      */
     public static void main(String[] args) {
 
-        Scanner Sc = new Scanner (System.in); //método constructor "System.in" es la consola de entrada del sistema.
+        Scanner Sc= new Scanner (System.in); //método constructor "System.in" es la consola de entrada del sistema.
 
         System.out.println("Introduce tu nombre por favor: ");
         String nombre = Sc.nextLine();
