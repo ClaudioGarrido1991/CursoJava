@@ -1,4 +1,4 @@
-package clase18_condicionalesuclesiii;
+package Clase18_CondicionalesBuclesIII;
 
 import javax.swing.*;
 
