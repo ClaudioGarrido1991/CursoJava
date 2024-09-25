@@ -31,18 +31,25 @@ public class Clase18_while {
 
     public static void main(String[] args) {
 
-    String clave = JOptionPane.showInputDialog("Ingresa tu nombre de usuario: ");
+    String clave = "Claudio";
 
     String pass = "";
 
-    while (clave.equals(pass) == false){ //Si "clave" ni es igual a "pass".
+    while (clave.equals(pass) == false){ //Si "clave" no es igual a "pass".
 
         pass = JOptionPane.showInputDialog("Introduce la contraseña por favor.");
 
-        if (clave.equals(pass)==false);
+        if (clave.equals(pass)==false){ 
+
+            System.out.println("Contraseña Incorrecta, vuelva a intentarlo");
+
+            
+        }
 
 
     }
+
+    System.out.println("Contraseña correcta, acceso permitido");
 
 
         
