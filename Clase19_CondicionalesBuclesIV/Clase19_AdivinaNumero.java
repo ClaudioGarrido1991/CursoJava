@@ -1,6 +1,6 @@
 package Clase19_CondicionalesBuclesIV;
 
-import javax.lang.*;
+//import javax.lang.*;
 import javax.swing.JOptionPane;
 
 public class Clase19_AdivinaNumero {
@@ -43,7 +43,9 @@ public class Clase19_AdivinaNumero {
 
         }
 
-
+/*NOTA: Existe la posibilidad remota que el número que se genere aleatoriamente sera CERO
+ * si es asi entonces la condicion para ejecutar el ciclo no se cumplirá.
+ */
 
 
 
